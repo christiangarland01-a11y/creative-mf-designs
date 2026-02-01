@@ -12,7 +12,7 @@
 #logo {
     display: block;
     width: 500px;
-    margin: auto;
+    margin: 20px auto;
 }
 
 nav {
@@ -58,12 +58,20 @@ main {
     justify-content: space-between;
 }
 
-.buttons button {
+.buttons a {
     border: none;
     background-color: #55abdf;
     color: white;
     padding: 10px 30px;
-    font-size: 1.1rem
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 150px;
+    box-shadow: #5f5eaa 3px 3px;
+}
+
+.buttons a:hover {
+    background-color: #5f5eaa;
+    box-shadow: black 3px 3px;
 }
 
 footer {
