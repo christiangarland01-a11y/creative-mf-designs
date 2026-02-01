@@ -1,5 +1,72 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: "Avenir-Black", sans-serif;
+    font-size: 16px;
+}
+
 #logo {
     display: block;
-    width: 70vw;
+    width: 500px;
     margin: auto;
+}
+
+nav {
+    width: 80vw;
+    max-width: 800px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #55abdf;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #5f5eaa;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.style-pen {
+    width: 100vw;
+    padding: 10px 20px;
+}
+
+.buttons {
+    width: 80vw;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    border: none;
+    background-color: #55abdf;
+    color: white;
+    padding: 10px 30px;
+    font-size: 1.1rem
+}
+
+footer {
+    background-color: black;
+    color: white;
 }
